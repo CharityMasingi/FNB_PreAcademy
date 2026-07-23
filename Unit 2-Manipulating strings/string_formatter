@@ -1,1 +1,74 @@
+#A username and message formatting program
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+bio = input("Write a bio:")
 
+#generating a username:
+username = f"{first_name[0]}{last_name.lower()}"
+
+#Displaying the full name in title case
+print (f"{first_name} {last_name.title()}")
+
+#Removing whitespaces in the bio
+stripped_bio = bio.strip()
+
+#Counting the number of characters in bio
+num_characters = len(stripped_bio)
+print(num_characters)
+
+#replacing I am with I'm
+new_bio = bio.replace("I am", "I'm")
+
+#displaying all outputs
+print(f"My name is {first_name} {last_name}, my bio is {new_bio}. My username is {username}. Total number of characters in my bio is {num_characters}.")
+
+
+
+initial code #A username and message formatting program
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+bio = input("Write a bio:")
+
+#generating a username:
+username = f"{first_name[0]}{last_name.lower()}"
+
+#Displaying the full name in title case
+print (f"{first_name}{last_name.title()}")
+
+#Removing whitespaces in the bio
+stripped_bio = input(bio.strip())
+
+#Counting the number of characters in bio
+num_characters = len(bio)
+print(num_characters)
+
+#replacing I am with I'm
+text = "I'm"
+new_bio = text.replace("I am", "I'm")
+
+#displaying all outputs
+print (f"{first_name}{last_name}{bio}{username}{stripped_bio}{num_characters}{new_bio} ")
+
+After fixing #A username and message formatting program
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+bio = input("Write a bio:")
+
+#generating a username:
+username = f"{first_name[0]}{last_name.lower()}"
+
+#Displaying the full name in title case
+print (f"{first_name} {last_name.title()}")
+
+#Removing whitespaces in the bio
+stripped_bio = bio.strip()
+
+#Counting the number of characters in bio
+num_characters = len(stripped_bio)
+print(num_characters)
+
+#replacing I am with I'm
+new_bio = bio.replace("I am", "I'm")
+
+#displaying all outputs
+print(f"My name is {first_name} {last_name}, my bio is {new_bio}. My username is {username}. Total number of characters in my bio is {num_characters}.")
